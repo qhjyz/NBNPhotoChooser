@@ -1,4 +1,5 @@
 #import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
 
 FOUNDATION_EXPORT NSString *const NBNPhotoMinerKeyImage;
 FOUNDATION_EXPORT NSString *const NBNPhotoMinerKeyFullImageURL;

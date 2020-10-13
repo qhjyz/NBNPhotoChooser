@@ -8,6 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		28D2FC5D3FAE4AC086499581 /* libPods-CameraPreview.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F4E60D150FD04265BB9F7F26 /* libPods-CameraPreview.a */; };
+		37B0F576253544130075710A /* NBNPhotoChooser.h in Headers */ = {isa = PBXBuildFile; fileRef = 37B0F574253544130075710A /* NBNPhotoChooser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		37B0F579253544130075710A /* NBNPhotoChooser.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37B0F572253544130075710A /* NBNPhotoChooser.framework */; };
+		37B0F57A253544130075710A /* NBNPhotoChooser.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 37B0F572253544130075710A /* NBNPhotoChooser.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		37B0F58D253544630075710A /* NBNImageCaptureCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 37B0F581253544620075710A /* NBNImageCaptureCell.m */; };
+		37B0F58E253544630075710A /* NBNCollectionViewCell.h in Sources */ = {isa = PBXBuildFile; fileRef = 37B0F582253544620075710A /* NBNCollectionViewCell.h */; };
+		37B0F58F253544630075710A /* NBNAssetCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 37B0F583253544620075710A /* NBNAssetCell.m */; };
+		37B0F590253544630075710A /* NBNCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 37B0F584253544620075710A /* NBNCollectionViewCell.m */; };
+		37B0F591253544630075710A /* NBNPhotoChooserViewController.h in Sources */ = {isa = PBXBuildFile; fileRef = 37B0F585253544620075710A /* NBNPhotoChooserViewController.h */; };
+		37B0F592253544630075710A /* NBNTransitioningDelegate.h in Sources */ = {isa = PBXBuildFile; fileRef = 37B0F586253544620075710A /* NBNTransitioningDelegate.h */; };
+		37B0F593253544630075710A /* NBNImageCaptureCell.h in Sources */ = {isa = PBXBuildFile; fileRef = 37B0F587253544620075710A /* NBNImageCaptureCell.h */; };
+		37B0F594253544630075710A /* NBNTransitioningDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 37B0F588253544620075710A /* NBNTransitioningDelegate.m */; };
+		37B0F595253544630075710A /* NBNPhotoMiner.m in Sources */ = {isa = PBXBuildFile; fileRef = 37B0F589253544620075710A /* NBNPhotoMiner.m */; };
+		37B0F596253544630075710A /* NBNPhotoMiner.h in Sources */ = {isa = PBXBuildFile; fileRef = 37B0F58A253544620075710A /* NBNPhotoMiner.h */; };
+		37B0F597253544630075710A /* NBNPhotoChooserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 37B0F58B253544630075710A /* NBNPhotoChooserViewController.m */; };
+		37B0F598253544630075710A /* NBNAssetCell.h in Sources */ = {isa = PBXBuildFile; fileRef = 37B0F58C253544630075710A /* NBNAssetCell.h */; };
+		37B0F5A9253544B10075710A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37B0F5A8253544B10075710A /* UIKit.framework */; };
 		F0495CA518589ED10032F2E5 /* NBNImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F0495CA418589ED10032F2E5 /* NBNImageViewController.m */; };
 		F0B1DDF11854829900908909 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0B1DDF01854829900908909 /* Foundation.framework */; };
 		F0B1DDF31854829900908909 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0B1DDF21854829900908909 /* CoreGraphics.framework */; };
@@ -23,6 +39,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		37B0F577253544130075710A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F0B1DDE51854829900908909 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 37B0F571253544130075710A;
+			remoteInfo = NBNPhotoChooser;
+		};
 		F0B1DE0D1854829900908909 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = F0B1DDE51854829900908909 /* Project object */;
@@ -32,7 +55,37 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		37B0F57B253544130075710A /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				37B0F57A253544130075710A /* NBNPhotoChooser.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		37B0F572253544130075710A /* NBNPhotoChooser.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NBNPhotoChooser.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		37B0F574253544130075710A /* NBNPhotoChooser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NBNPhotoChooser.h; sourceTree = "<group>"; };
+		37B0F575253544130075710A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		37B0F581253544620075710A /* NBNImageCaptureCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NBNImageCaptureCell.m; sourceTree = "<group>"; };
+		37B0F582253544620075710A /* NBNCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NBNCollectionViewCell.h; sourceTree = "<group>"; };
+		37B0F583253544620075710A /* NBNAssetCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NBNAssetCell.m; sourceTree = "<group>"; };
+		37B0F584253544620075710A /* NBNCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NBNCollectionViewCell.m; sourceTree = "<group>"; };
+		37B0F585253544620075710A /* NBNPhotoChooserViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NBNPhotoChooserViewController.h; sourceTree = "<group>"; };
+		37B0F586253544620075710A /* NBNTransitioningDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NBNTransitioningDelegate.h; sourceTree = "<group>"; };
+		37B0F587253544620075710A /* NBNImageCaptureCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NBNImageCaptureCell.h; sourceTree = "<group>"; };
+		37B0F588253544620075710A /* NBNTransitioningDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NBNTransitioningDelegate.m; sourceTree = "<group>"; };
+		37B0F589253544620075710A /* NBNPhotoMiner.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NBNPhotoMiner.m; sourceTree = "<group>"; };
+		37B0F58A253544620075710A /* NBNPhotoMiner.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NBNPhotoMiner.h; sourceTree = "<group>"; };
+		37B0F58B253544630075710A /* NBNPhotoChooserViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NBNPhotoChooserViewController.m; sourceTree = "<group>"; };
+		37B0F58C253544630075710A /* NBNAssetCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NBNAssetCell.h; sourceTree = "<group>"; };
+		37B0F5A8253544B10075710A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/iOSSupport/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		9A4E3D3683A9102720A36E56 /* Pods-CameraPreview.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CameraPreview.release.xcconfig"; path = "Pods/Target Support Files/Pods-CameraPreview/Pods-CameraPreview.release.xcconfig"; sourceTree = "<group>"; };
 		D5E0704CFC1581E92274FEF8 /* Pods-CameraPreview.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CameraPreview.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CameraPreview/Pods-CameraPreview.debug.xcconfig"; sourceTree = "<group>"; };
 		F0495CA318589ED10032F2E5 /* NBNImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NBNImageViewController.h; sourceTree = "<group>"; };
@@ -56,6 +109,14 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		37B0F56F253544130075710A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37B0F5A9253544B10075710A /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F0B1DDEA1854829900908909 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -64,6 +125,7 @@
 				F0B1DDF51854829900908909 /* UIKit.framework in Frameworks */,
 				F0B1DDF11854829900908909 /* Foundation.framework in Frameworks */,
 				28D2FC5D3FAE4AC086499581 /* libPods-CameraPreview.a in Frameworks */,
+				37B0F579253544130075710A /* NBNPhotoChooser.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,6 +142,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		37B0F573253544130075710A /* NBNPhotoChooser */ = {
+			isa = PBXGroup;
+			children = (
+				37B0F574253544130075710A /* NBNPhotoChooser.h */,
+				37B0F575253544130075710A /* Info.plist */,
+			);
+			path = NBNPhotoChooser;
+			sourceTree = "<group>";
+		};
+		37B0F59B253544700075710A /* FrameworkClass */ = {
+			isa = PBXGroup;
+			children = (
+				37B0F58C253544630075710A /* NBNAssetCell.h */,
+				37B0F583253544620075710A /* NBNAssetCell.m */,
+				37B0F582253544620075710A /* NBNCollectionViewCell.h */,
+				37B0F584253544620075710A /* NBNCollectionViewCell.m */,
+				37B0F587253544620075710A /* NBNImageCaptureCell.h */,
+				37B0F581253544620075710A /* NBNImageCaptureCell.m */,
+				37B0F585253544620075710A /* NBNPhotoChooserViewController.h */,
+				37B0F58B253544630075710A /* NBNPhotoChooserViewController.m */,
+				37B0F58A253544620075710A /* NBNPhotoMiner.h */,
+				37B0F589253544620075710A /* NBNPhotoMiner.m */,
+				37B0F586253544620075710A /* NBNTransitioningDelegate.h */,
+				37B0F588253544620075710A /* NBNTransitioningDelegate.m */,
+			);
+			path = FrameworkClass;
+			sourceTree = "<group>";
+		};
 		C21FF6A789D769044428113D /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -92,8 +182,10 @@
 		F0B1DDE41854829900908909 = {
 			isa = PBXGroup;
 			children = (
+				37B0F59B253544700075710A /* FrameworkClass */,
 				F0B1DDF61854829900908909 /* CameraPreview */,
 				F0B1DE0F1854829900908909 /* CameraPreviewTests */,
+				37B0F573253544130075710A /* NBNPhotoChooser */,
 				F0B1DDEF1854829900908909 /* Frameworks */,
 				F0B1DDEE1854829900908909 /* Products */,
 				C21FF6A789D769044428113D /* Pods */,
@@ -105,6 +197,7 @@
 			children = (
 				F0B1DDED1854829900908909 /* CameraPreview.app */,
 				F0B1DE081854829900908909 /* CameraPreviewTests.xctest */,
+				37B0F572253544130075710A /* NBNPhotoChooser.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -112,6 +205,7 @@
 		F0B1DDEF1854829900908909 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				37B0F5A8253544B10075710A /* UIKit.framework */,
 				F0B1DDF01854829900908909 /* Foundation.framework */,
 				F0B1DDF21854829900908909 /* CoreGraphics.framework */,
 				F0B1DDF41854829900908909 /* UIKit.framework */,
@@ -164,7 +258,36 @@
 		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		37B0F56D253544130075710A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37B0F576253544130075710A /* NBNPhotoChooser.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
+		37B0F571253544130075710A /* NBNPhotoChooser */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 37B0F57E253544130075710A /* Build configuration list for PBXNativeTarget "NBNPhotoChooser" */;
+			buildPhases = (
+				37B0F56D253544130075710A /* Headers */,
+				37B0F56E253544130075710A /* Sources */,
+				37B0F56F253544130075710A /* Frameworks */,
+				37B0F570253544130075710A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NBNPhotoChooser;
+			productName = NBNPhotoChooser;
+			productReference = 37B0F572253544130075710A /* NBNPhotoChooser.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		F0B1DDEC1854829900908909 /* CameraPreview */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = F0B1DE191854829900908909 /* Build configuration list for PBXNativeTarget "CameraPreview" */;
@@ -175,10 +298,12 @@
 				F0B1DDEB1854829900908909 /* Resources */,
 				2F30702E8CBE4D5092A6F064 /* Copy Pods Resources */,
 				E8D3A5EEAF0992388820840B /* Embed Pods Frameworks */,
+				37B0F57B253544130075710A /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				37B0F578253544130075710A /* PBXTargetDependency */,
 			);
 			name = CameraPreview;
 			productName = CameraPreview;
@@ -213,6 +338,10 @@
 				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = "nerdish by nature";
 				TargetAttributes = {
+					37B0F571253544130075710A = {
+						CreatedOnToolsVersion = 12.0.1;
+						ProvisioningStyle = Automatic;
+					};
 					F0B1DDEC1854829900908909 = {
 						DevelopmentTeam = M3F8W7J23K;
 					};
@@ -226,6 +355,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = F0B1DDE41854829900908909;
@@ -235,11 +365,19 @@
 			targets = (
 				F0B1DDEC1854829900908909 /* CameraPreview */,
 				F0B1DE071854829900908909 /* CameraPreviewTests */,
+				37B0F571253544130075710A /* NBNPhotoChooser */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		37B0F570253544130075710A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F0B1DDEB1854829900908909 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -308,6 +446,25 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		37B0F56E253544130075710A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37B0F58D253544630075710A /* NBNImageCaptureCell.m in Sources */,
+				37B0F58E253544630075710A /* NBNCollectionViewCell.h in Sources */,
+				37B0F58F253544630075710A /* NBNAssetCell.m in Sources */,
+				37B0F590253544630075710A /* NBNCollectionViewCell.m in Sources */,
+				37B0F591253544630075710A /* NBNPhotoChooserViewController.h in Sources */,
+				37B0F592253544630075710A /* NBNTransitioningDelegate.h in Sources */,
+				37B0F593253544630075710A /* NBNImageCaptureCell.h in Sources */,
+				37B0F594253544630075710A /* NBNTransitioningDelegate.m in Sources */,
+				37B0F595253544630075710A /* NBNPhotoMiner.m in Sources */,
+				37B0F596253544630075710A /* NBNPhotoMiner.h in Sources */,
+				37B0F597253544630075710A /* NBNPhotoChooserViewController.m in Sources */,
+				37B0F598253544630075710A /* NBNAssetCell.h in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F0B1DDE91854829900908909 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -328,6 +485,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		37B0F578253544130075710A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 37B0F571253544130075710A /* NBNPhotoChooser */;
+			targetProxy = 37B0F577253544130075710A /* PBXContainerItemProxy */;
+		};
 		F0B1DE0E1854829900908909 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = F0B1DDEC1854829900908909 /* CameraPreview */;
@@ -355,6 +517,107 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		37B0F57C253544130075710A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				INFOPLIST_FILE = NBNPhotoChooser/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = camerapreview.NBNPhotoChooser;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		37B0F57D253544130075710A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				INFOPLIST_FILE = NBNPhotoChooser/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = camerapreview.NBNPhotoChooser;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		F0B1DE171854829900908909 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -437,6 +700,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CameraPreview/CameraPreview-Prefix.pch";
 				INFOPLIST_FILE = "CameraPreview/CameraPreview-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.nerdishbynature.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
@@ -456,6 +720,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CameraPreview/CameraPreview-Prefix.pch";
 				INFOPLIST_FILE = "CameraPreview/CameraPreview-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.nerdishbynature.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
@@ -509,6 +774,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		37B0F57E253544130075710A /* Build configuration list for PBXNativeTarget "NBNPhotoChooser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37B0F57C253544130075710A /* Debug */,
+				37B0F57D253544130075710A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		F0B1DDE81854829900908909 /* Build configuration list for PBXProject "CameraPreview" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
